@@ -8,7 +8,10 @@ def cargar_productos(tree):
         tree.delete(row)
     productos = obtener_productos()
     for index, producto in enumerate(productos):
+        
         color = "#E8F0FE" if index % 2 == 0 else "white"
+        if producto.cantidad_stock <= producto.stock_minimo:
+            color = "salmon"
         tree.insert("", "end", values=(
             producto.id,
             producto.precio,
@@ -18,6 +21,7 @@ def cargar_productos(tree):
         ), tags=(color,))
     tree.tag_configure("white", background="white")
     tree.tag_configure("#E8F0FE", background="#E8F0FE")
+    tree.tag_configure("salmon", background="salmon")
 
 def modificar_stock(tree, aumentar=True):
     seleccionado = tree.focus()

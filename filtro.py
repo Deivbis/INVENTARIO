@@ -10,14 +10,17 @@ def filtro_busqueda():
         for row in tree.get_children():
             tree.delete(row)
         for index,producto in enumerate(productos):
-            tag = "par" if index % 2 == 0 else "impar"
-            tree.insert("", "end", tags=(tag,), values=(
+            color = "par" if index % 2 == 0 else "impar"
+            if producto.cantidad_stock < producto.stock_minimo:
+                color = "salmon"
+            tree.insert("", "end", values=(
                 producto.id, producto.nombre, producto.precio, producto.categoria,
                 producto.cantidad_stock, producto.stock_minimo, producto.id_proveedor,
                 producto.estado, producto.fecha_registro.strftime("%Y-%m-%d")
-            ))
+            ),tag=(color,))
         tree.tag_configure("par", background="#f4f6f8")
         tree.tag_configure("impar", background="white")
+        tree.tag_configure("salmon", background="salmon")
         
     def buscar():
         try:
