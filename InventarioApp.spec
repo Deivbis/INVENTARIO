@@ -1,5 +1,7 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+import os
+
 
 a = Analysis(
     ['login.py'],
@@ -11,9 +13,11 @@ a = Analysis(
         ('C:\\Users\\ANDRES MB\\Desktop\\PROYEC_SEMA\\logo_inventory.png', '.'), 
         ('C:\\Users\\ANDRES MB\\Desktop\\PROYEC_SEMA\\inventary.sql', '.'), 
         ('C:\\Users\\ANDRES MB\\Desktop\\PROYEC_SEMA\\reporte\\*', 'reporte'), 
-        ('C:\\Users\\ANDRES MB\\Desktop\\PROYEC_SEMA\\historial\\*', 'historial')
+        ('C:\\Users\\ANDRES MB\\Desktop\\PROYEC_SEMA\\historial\\*', 'historial'),
+        
     ],
-    hiddenimports=[],
+
+    hiddenimports=['pymysql','sqlalchemy','bcrypt','reportlab','tkinter','mysql'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -43,5 +47,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['logo_proyec.ico'],
+    icon=['C:\\Users\\ANDRES MB\\Desktop\\PROYEC_SEMA\\logo_proyec.ico'],
 )

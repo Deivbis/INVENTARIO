@@ -1328,14 +1328,6 @@
    'C:\\Users\\ANDRES '
    'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\__init__.py',
    'PYMODULE'),
-  ('mysql.connector._decorating',
-   'C:\\Users\\ANDRES '
-   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\_decorating.py',
-   'PYMODULE'),
-  ('mysql.connector._scripting',
-   'C:\\Users\\ANDRES '
-   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\_scripting.py',
-   'PYMODULE'),
   ('mysql.connector.abstracts',
    'C:\\Users\\ANDRES '
    'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\abstracts.py',
@@ -1343,6 +1335,10 @@
   ('mysql.connector.authentication',
    'C:\\Users\\ANDRES '
    'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\authentication.py',
+   'PYMODULE'),
+  ('mysql.connector.catch23',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\catch23.py',
    'PYMODULE'),
   ('mysql.connector.charsets',
    'C:\\Users\\ANDRES '
@@ -1388,45 +1384,33 @@
    'C:\\Users\\ANDRES '
    'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\errors.py',
    'PYMODULE'),
+  ('mysql.connector.fabric',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\fabric\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.fabric.balancing',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\fabric\\balancing.py',
+   'PYMODULE'),
+  ('mysql.connector.fabric.caching',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\fabric\\caching.py',
+   'PYMODULE'),
+  ('mysql.connector.fabric.connection',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\fabric\\connection.py',
+   'PYMODULE'),
   ('mysql.connector.locales',
    'C:\\Users\\ANDRES '
    'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\locales\\__init__.py',
-   'PYMODULE'),
-  ('mysql.connector.logger',
-   'C:\\Users\\ANDRES '
-   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\logger.py',
    'PYMODULE'),
   ('mysql.connector.network',
    'C:\\Users\\ANDRES '
    'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\network.py',
    'PYMODULE'),
-  ('mysql.connector.opentelemetry',
-   'C:\\Users\\ANDRES '
-   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\opentelemetry\\__init__.py',
-   'PYMODULE'),
-  ('mysql.connector.opentelemetry.constants',
-   'C:\\Users\\ANDRES '
-   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\opentelemetry\\constants.py',
-   'PYMODULE'),
-  ('mysql.connector.opentelemetry.context_propagation',
-   'C:\\Users\\ANDRES '
-   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\opentelemetry\\context_propagation.py',
-   'PYMODULE'),
-  ('mysql.connector.opentelemetry.instrumentation',
-   'C:\\Users\\ANDRES '
-   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\opentelemetry\\instrumentation.py',
-   'PYMODULE'),
   ('mysql.connector.optionfiles',
    'C:\\Users\\ANDRES '
    'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\optionfiles.py',
-   'PYMODULE'),
-  ('mysql.connector.plugins',
-   'C:\\Users\\ANDRES '
-   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\plugins\\__init__.py',
-   'PYMODULE'),
-  ('mysql.connector.plugins.caching_sha2_password',
-   'C:\\Users\\ANDRES '
-   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\plugins\\caching_sha2_password.py',
    'PYMODULE'),
   ('mysql.connector.pooling',
    'C:\\Users\\ANDRES '
@@ -1435,14 +1419,6 @@
   ('mysql.connector.protocol',
    'C:\\Users\\ANDRES '
    'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\protocol.py',
-   'PYMODULE'),
-  ('mysql.connector.tls_ciphers',
-   'C:\\Users\\ANDRES '
-   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\tls_ciphers.py',
-   'PYMODULE'),
-  ('mysql.connector.types',
-   'C:\\Users\\ANDRES '
-   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\mysql\\connector\\types.py',
    'PYMODULE'),
   ('mysql.connector.utils',
    'C:\\Users\\ANDRES '
@@ -1596,6 +1572,74 @@
   ('pydoc_data.topics',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pymysql',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\__init__.py',
+   'PYMODULE'),
+  ('pymysql._auth',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\_auth.py',
+   'PYMODULE'),
+  ('pymysql.charset',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\charset.py',
+   'PYMODULE'),
+  ('pymysql.connections',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\connections.py',
+   'PYMODULE'),
+  ('pymysql.constants',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\constants\\__init__.py',
+   'PYMODULE'),
+  ('pymysql.constants.CLIENT',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\constants\\CLIENT.py',
+   'PYMODULE'),
+  ('pymysql.constants.COMMAND',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\constants\\COMMAND.py',
+   'PYMODULE'),
+  ('pymysql.constants.CR',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\constants\\CR.py',
+   'PYMODULE'),
+  ('pymysql.constants.ER',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\constants\\ER.py',
+   'PYMODULE'),
+  ('pymysql.constants.FIELD_TYPE',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\constants\\FIELD_TYPE.py',
+   'PYMODULE'),
+  ('pymysql.constants.SERVER_STATUS',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\constants\\SERVER_STATUS.py',
+   'PYMODULE'),
+  ('pymysql.converters',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\converters.py',
+   'PYMODULE'),
+  ('pymysql.cursors',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\cursors.py',
+   'PYMODULE'),
+  ('pymysql.err',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\err.py',
+   'PYMODULE'),
+  ('pymysql.optionfile',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\optionfile.py',
+   'PYMODULE'),
+  ('pymysql.protocol',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\protocol.py',
+   'PYMODULE'),
+  ('pymysql.times',
+   'C:\\Users\\ANDRES '
+   'MB\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\pymysql\\times.py',
    'PYMODULE'),
   ('queue',
    'C:\\Program '
