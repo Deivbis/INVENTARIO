@@ -3,15 +3,15 @@
 
 a = Analysis(
     ['login.py'],
-    pathex=['C:\\Users\\ANDRES MB\\Desktop\\INVENTARY-master\\INVENTARY-master\\INVENTARY\\PROYEC_SEMA'],
+    pathex=['C:\\Users\\ANDRES MB\\Desktop\\PROYEC_SEMA'],
     binaries=[],
     datas=[
-        ('C:\\Users\\ANDRES MB\\Desktop\\INVENTARY-master\\INVENTARY-master\\INVENTARY\\PROYEC_SEMA\\trasparente.png', '.'), 
-        ('C:\\Users\\ANDRES MB\\Desktop\\INVENTARY-master\\INVENTARY-master\\INVENTARY\\PROYEC_SEMA\\logo_proyec.png', '.'), 
-        ('C:\\Users\\ANDRES MB\\Desktop\\INVENTARY-master\\INVENTARY-master\\INVENTARY\\PROYEC_SEMA\\logo_inventory.png', '.'), 
-        ('C:\\Users\\ANDRES MB\\Desktop\\INVENTARY-master\\INVENTARY-master\\INVENTARY\\PROYEC_SEMA\\inventary.sql', '.'), 
-        ('C:\\Users\\ANDRES MB\\Desktop\\INVENTARY-master\\INVENTARY-master\\INVENTARY\\PROYEC_SEMA\\reporte\\*', 'reporte'), 
-        ('C:\\Users\\ANDRES MB\\Desktop\\INVENTARY-master\\INVENTARY-master\\INVENTARY\\PROYEC_SEMA\\historial\\*', 'historial')
+        ('C:\\Users\\ANDRES MB\\Desktop\\PROYEC_SEMA\\trasparente.png', '.'), 
+        ('C:\\Users\\ANDRES MB\\Desktop\\PROYEC_SEMA\\logo_proyec.png', '.'), 
+        ('C:\\Users\\ANDRES MB\\Desktop\\PROYEC_SEMA\\logo_inventory.png', '.'), 
+        ('C:\\Users\\ANDRES MB\\Desktop\\PROYEC_SEMA\\inventary.sql', '.'), 
+        ('C:\\Users\\ANDRES MB\\Desktop\\PROYEC_SEMA\\reporte\\*', 'reporte'), 
+        ('C:\\Users\\ANDRES MB\\Desktop\\PROYEC_SEMA\\historial\\*', 'historial')
     ],
     hiddenimports=[],
     hookspath=[],
